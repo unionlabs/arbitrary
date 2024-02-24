@@ -107,8 +107,8 @@ fn apply_trait_bounds(
                 } else {
                     // If no user-supplied bounds exist for this type, delete the original bounds.
                     // This mimics serde.
-                    type_param.bounds = Default::default();
-                    type_param.default = None;
+                    // type_param.bounds = Default::default();
+                    // type_param.default = None;
                 }
             }
         }
